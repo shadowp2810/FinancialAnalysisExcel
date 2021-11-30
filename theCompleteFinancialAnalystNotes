@@ -1,3 +1,5 @@
+# FinancialAnalysisExcel
+
 # 365 Financial Analyst Course 2021
 
 Below are my notes from the course. <br>
@@ -60,7 +62,8 @@ Both NPV and IRR are used to calculate profitability of projects.
 
 For Loan Scheduled payments
 on excel can use PMT payment 
-using monthly interest rate(C5), num of periods(C3) and loan amount(C6).
+using monthly interest rate(C5), num of periods(C3) 
+and loan amount(C6).
 eg =PMT(C5,C3,C6)
 We create a table 
    Period, Payment, Interest, Principal, Residual Debt
@@ -99,7 +102,8 @@ eg: "total" cell values and delete all those rows
 <br>
 
 If no unique code exists to identify, 
-use & or concatenate using eg the account number and parent company id.
+use & or concatenate using eg the account number 
+and parent company id.
 <br>
 
 You can copy and paste codes from all years on one column,
@@ -118,12 +122,13 @@ We use "SUMIF" for for the revenue and costs of the business.
 alternatively can use index and match
 <br>
 
-We classify many sub-ledgers into a single sub-ledger for easier viewing
+We classify many sub-ledgers into a single sub-ledger 
+for easier viewing.
 eg: Typical P&L categories: Revenue, cost of goods sold,
-     operating expenses(non-factory personnel, rent, utility expenses,
-     marketing and advertising costs, travel expenses, 
-     service expenses, legal fees), D&A , interest expenses, 
-     Extraordinary items, Taxes
+     operating expenses(non-factory personnel, rent, 
+     utility expenses, marketing and advertising costs, 
+     travel expenses, service expenses, legal fees), D&A , 
+     interest expenses, Extraordinary items, Taxes
 eg: of P&L statement in main column from mapping might be 
      Net Sales + Other Revenues + Recharges = Total revenue , 
      Total revenue - Direct Costs = Gross Margin , 
@@ -145,8 +150,8 @@ to filter and show only relevant data
 
 Case Study FMCG modelling
 ERP(Enterprise Resource Planning)
-- Integrated software solutions used by companies to collect, store
-  and manage data from business activities.
+- Integrated software solutions used by companies to collect, 
+  store and manage data from business activities.
 - They are data warehouses
 <br>
 
@@ -213,10 +218,12 @@ Net Income = EBT - Taxes
 <br>
 
 Assets must be equal to Liability + Equity
-Assets = Trade Receivables + Inventory + PP&E + Cash + Other Assets
-Liabilities & Equity = Trade Payables + Provisions + 
-                       Financial Liabilities + Other Liabilities +
-                       Equity
+Assets 
+ = Trade Receivables + Inventory + PP&E + Cash + Other Assets
+Liabilities & Equity = Trade Payables + Provisions 
+                       + Financial Liabilities 
+                       + Other Liabilities 
+                       + Equity
 <br>
 
 
@@ -227,9 +234,17 @@ Revenue % growth, Cogs as % of Revenues, OPEX as % of Revenues
 <br>
 
 CCC is cash conversion cycle
-DSO - Days Sales Outstanding (DSO) is the average number of days taken by a firm to collect payment from their customers after the completion of a sale.
-DPO - Days payable outstanding (DPO) computes the average number of days a company needs to pay its bills and obligations
-DIO - Days inventory outstanding (DIO) is a working capital management ratio that measures the average number of days that a company holds inventory for before turning it into sales.
+DSO - Days Sales Outstanding (DSO) 
+is the average number of days 
+taken by a firm to collect payment from their customers 
+after the completion of a sale.
+DPO - Days payable outstanding (DPO) computes 
+the average number of days a company needs 
+to pay its bills and obligations
+DIO - Days inventory outstanding (DIO) is 
+a working capital management ratio that measures 
+the average number of days that a company holds inventory 
+for before turning it into sales.
 <br>
 
 DSO * (Revenues 2017 / 360) = Trade Receivables 2017
@@ -238,14 +253,16 @@ DIO * (Cogs 2017 / 360) = Inventory 2017
 <br>
 
 PP&E can be found using Fixed Asset Roll Forward
-Property, plant, and equipment (PP&E) are long-term assets vital to 
-business operations and not easily converted into cash. Property, 
-plant, and equipment are tangible assets, meaning they are physical in 
-nature or can be touched.
+Property, plant, and equipment (PP&E) are long-term assets 
+vital to business operations 
+and not easily converted into cash. 
+Property, plant, and equipment are tangible assets, 
+meaning they are physical in nature or can be touched.
 <br>
 
-Capital expenditures (CapEx) are funds used by a company to acquire, 
-upgrade, and maintain physical assets such as property, plants, 
+Capital expenditures (CapEx) are funds used 
+by a company to acquire, upgrade, and maintain 
+physical assets such as property, plants, 
 buildings, technology, or equipment. 
 <br>
 
@@ -265,15 +282,19 @@ Beginning PP&E, D&A, Capex and Ending PP&E
 <br>
 
 Financial Liabilities table contains
-Beginning Debt, New Debt, Principal Repayments and Ending Debt
+Beginning Debt, New Debt, Principal Repayments 
+and Ending Debt
 <br>
 
 Ending Debt for 2014 is Beginning Debt for 2015
-Ending Debt = Beginning Debt + New Debt + Principal Repayments
+Ending Debt 
+  = Beginning Debt + New Debt + Principal Repayments
 <br>
 
-Debt to be Repaid, Interest Rate and Annual payment  go below table.
-Annual payment - =PMT(InterestRate, DebtToBeRepaid, EndingDebt)
+Debt to be Repaid, Interest Rate 
+and Annual payment go below table.
+Annual payment - 
+  =PMT(InterestRate, DebtToBeRepaid, EndingDebt)
 <br>
 
 For a Period of say 10 years we find
@@ -285,21 +306,26 @@ Residual Debt = Ending Debt - Debt Repayment
 <br>
 
 Equity Schedule Table contains 
-Beginning Equity, Increase of Capital, Net Income(loss), 
-Dividends, Ending Equity
+Beginning Equity, Increase of Capital, 
+Net Income(loss), Dividends, Ending Equity
 Below table will be Dividends as % of Net Income
 <br>
 
-Ending Equity = Beginning Equity + increase in capital +
-                new income (loss) + Dividends
+Ending Equity = Beginning Equity + increase in capital
+                + new income (loss) + Dividends
 
 <br>
 
 Cash Flow Table contains
-EBITDA, Interest Expenses, Taxes, Change in Trade Receivables,
-Change in Inventory, Change in Trade Payables, Change in Other Assets,
-Change in Other Liabilities, Capex, Operating Cash Flow, Dividends,
-Change in Financial liabilities, Change in Provisions, 
+EBITDA, Interest Expenses, Taxes, 
+Change in Trade Receivables,
+Change in Inventory, 
+Change in Trade Payables, 
+Change in Other Assets,
+Change in Other Liabilities, 
+Capex, Operating Cash Flow, Dividends,
+Change in Financial liabilities, 
+Change in Provisions, 
 Change in Equity, Net Cash Flow
 <br>
 
@@ -316,17 +342,19 @@ Cash Movement of Assets =
 
 --------
 
-Accounting is an information science that is used to collect and 
-organize financial data for organizations and individuals.
+Accounting is an information science that is used 
+to collect and organize financial data 
+for organizations and individuals.
 <br>
 
-Accounting helps you use the past in order to take action
-in the present and change the future.
+Accounting helps you use the past in order 
+to take action in the present and change the future.
 <br>
 
 Four main areas of Accounting:
 -Bookkeeping is the collection of information
--Financial Accounting is prepared for external stakeholders
+-Financial Accounting is prepared 
+ for external stakeholders
  (Income Statement, Balance Sheet and Cash Flow)
 -Managerial Accounting is 
  the strategic information available to insiders
@@ -337,23 +365,35 @@ Four main areas of Accounting:
 Bookkeeping is the foundation of Accounting.
 <br>
 
-Financial Accounting is for outsiders. Information for the investors
-and lenders. eg the amount of sales this year and last year, or
-how profitable the business is. Financial reports show what the
-company owns and owes. And how much money is available to the company.
-Allows outsiders to make reasonable judgement about company's business.
-Financial reporting allows to monitor the company performance. 
+Financial Accounting is for outsiders. 
+Information for the investors and lenders. 
+eg the amount of sales this year and last year, 
+or how profitable the business is. 
+Financial reports show what the company owns and owes. 
+And how much money is available to the company.
+Allows outsiders to make reasonable judgement 
+about company's business.
+Financial reporting allows 
+to monitor the company performance. 
 
 <br>
 
 US GAAP vs IFRS
 <br>
 
-Generally Accepted Accounting Principles (GAAP or US GAAP) are a collection of commonly-followed accounting rules and standards for financial reporting.
-The four basic constraints associated with GAAP include objectivity, materiality, consistency and prudence
+Generally Accepted Accounting Principles 
+(GAAP or US GAAP) are a collection 
+of commonly-followed accounting rules 
+and standards for financial reporting.
+The four basic constraints associated 
+with GAAP include objectivity, materiality, 
+consistency and prudence
 <br>
 
-IFRS stands for international financial reporting standards. It's a set of accounting rules and standards that determine how accounting events should be reported in your business's financial statements.
+IFRS stands for international financial reporting standards. 
+It's a set of accounting rules and standards 
+that determine how accounting events should be reported 
+in your business's financial statements.
 <br>
 
 US GAAP - US Generally accepted accounting principles
@@ -375,7 +415,8 @@ Financial Statement
 <br>
 
 Income statement tells us how a company performed 
-throughout the period under consideration. 1 year or quarterly.
+throughout the period under consideration. 
+1 year or quarterly.
 <br>
 
 P&L tell us if firm generated economic value and 
@@ -383,14 +424,16 @@ enables to find trends like revenue growth and
 incidence of gross profit on revenues.
 <br>
 
-Balance sheet answers what a company own and owe at a certain date. 
+Balance sheet answers what a company own 
+and owe at a certain date. 
 Shows the assets a business owns,
 the liabilities a business owes,
 and the equity that belongs to equity holders. 
 assets = liabilities + equity
 <br>
 
-Statement of Cash flow answers how much cash did a company make 
+Statement of Cash flow answers 
+how much cash did a company make 
 under the period of consideration and where it came from.
 Measures Liquidity.
 <br>
@@ -429,10 +472,12 @@ Office expenses also part of SG&A
 <br>
 
 EBITDA = Gross Profit - SG&A
-EBITDA is Earnings before Interest, Tax, Depreciation and Amortization.
-EBITDA shows how much is make with inclusion of direct and 
-indirect expenses.
-D&A reflects the using up of tangible and intangible assets.
+EBITDA is Earnings 
+  before Interest, Tax, Depreciation and Amortization.
+EBITDA shows how much is make with inclusion of direct 
+and indirect expenses.
+D&A reflects the using up 
+of tangible and intangible assets.
 Depreciation is for physical Assets (Factory).
 Amortization is for intangible Assets (Patents).
 <br>
@@ -441,7 +486,8 @@ EBIT = EBITDA - D&A
 EBIT is Earnings before Interest and Taxes
 <br>
 
-Interest Expenses are costs a company bears for receiving financing.
+Interest Expenses are costs a company bears 
+for receiving financing.
 <br>
 
 EBT = EBIT - Interest Expenses
@@ -479,8 +525,9 @@ eg Straight Line Depreciation
    Annual Depreciation: 30K * 0.12 = 3.6K
 <br>
 
-Intangible Assets: Software Brands, Goodwill, Artistic Assets
-Only Intangible Assets with finite life are subject to amortization.
+Intangible Assets:Software Brands, Goodwill, Artistic Assets
+Only Intangible Assets with finite life 
+are subject to amortization.
 <br>
 
 Balance Sheet
@@ -541,7 +588,8 @@ On Liabilities side there is
  for delayed payment.
 -Tax Liabilities are Income Tax, Property Tax, VAT,
  regional or sales tax, owed at different points of time.
--Provisions is money set aside by company for future obligations.
+-Provisions is money set aside by company 
+ for future obligations.
  eg when another company sues this company.
 <br>
 
@@ -575,11 +623,18 @@ Assets | Liabilities & Equity
 
 
 Accrual Accounting
-Accrual accounting is an accounting method where revenue or expenses are recorded when a transaction occurs rather than when payment is received or made. The method follows the matching principle, which says that revenues and expenses should be recognized in the same period.
+Accrual accounting is an accounting method where revenue 
+or expenses are recorded when a transaction occurs 
+rather than when payment is received or made. 
+The method follows the matching principle, 
+which says that revenues and expenses 
+should be recognized in the same period.
 <br>
 
-The idea that the Revenues and costs should not be registered when 
-cash is exchanged but should be registered when revenues are earned 
+The idea that the Revenues and costs should 
+not be registered when 
+cash is exchanged but should be registered 
+when revenues are earned 
 and when costs are incurred is called accrual accounting.
 No firm uses cash accounting.
 Income and cash are two different things.
@@ -591,23 +646,28 @@ Revenue Recognition:
 <br>
 
 Accounting to IFRS the 5 Revenue Recognition criteria:
--Risks and Rewards have been transferred from the seller to the buyer.
+-Risks and Rewards have been transferred 
+from the seller to the buyer.
 -The seller has no control over the goods sold.
 -Collection of payment is reasonably assured.
 -The amount of revenue can be reasonably measured.
 -Costs of earning the revenue can be reasonably measured.
 <br>
 
-eg when a used car without a warranty is bought and 
-   buyer leaves with it, then first two points are satisfied.
-   That is Risk and Rewards, and Control have been transferred. 
+eg when a used car without a warranty is bought 
+   and buyer leaves with it, 
+   then first two points are satisfied.
+   That is Risk and Rewards, 
+   and Control have been transferred. 
 
-   if there was a 5 year warranty then not all Risks have been 
-   transferred and so some portion of unearned revenue is left on
-   Liability side of Balance Sheet. 
+   if there was a 5 year warranty t
+   hen not all Risks have been 
+   transferred and so some portion of unearned revenue 
+   is left on Liability side of Balance Sheet. 
 
-   if in the third point it is likely the clients will default on
-   payment, then cannot register full amount as revenue. 
+   if in the third point it is likely the clients 
+   will default on payment, 
+   then cannot register full amount as revenue. 
 <br>
 
 Higher Revenues means:
@@ -633,7 +693,8 @@ eg of Revenue Recognition criteria in practice:
    But is out of muffins and instead sells coupon for it.
    Risk and Rewards only partially transferred. 
    Control has not been transferred as muffin not derived yet.
-   Client paid for juice and muffin so collection of payment assured.
+   Client paid for juice and muffin 
+   so collection of payment assured.
    Payment can be measured, that is revenue reasonably measured.
    Costs of earning revenue can be measured.
    So here first 2 rules are not satisfied.
@@ -657,7 +718,8 @@ eg: High end restaurant may buy the expensive meat
     Restaurant should register meat as an expense 
     when sold to customers. 
     As rent and accounting costs are not directly related,
-    they are period costs and expensed in same period as sustained. 
+    they are period costs and expensed 
+    in same period as sustained. 
     Product Costs vs Period Costs. 
 <br>
 
@@ -669,10 +731,12 @@ Merchandise sales + Other Income = Toal Revenue ,
 Cost of Goods Sold + D&A + Personnel + Rent 
 + Interest Expense + Utilities + Taxes = Total Expenses,
 Toal Revenue - Total Expenses = Net Income. 
-Simply subtracts Total Revenue from Total Costs and gives Net income. 
+Simply subtracts Total Revenue 
+from Total Costs and gives Net income. 
 <br>
 
-Multi-Step P&L should more difference in revenues and costs, contains
+Multi-Step P&L should more difference in revenues and costs, 
+contains
 Merchandise sales + Other Income = Total Revenue , 
 Total Revenue - Cost of Goods Sold = Gross Profit ,
 Gross Profit - Personnel - Rent - Utilities = EBITDA ,
@@ -683,19 +747,23 @@ EBT - Taxes = Net Income.
 
 
 Top line of P&L, that is Revenue Recognition from
-sales a company makes is a measure of how large its business is 
+sales a company makes is a measure 
+of how large its business is 
 and how it performed compared to previous periods 
 is most important. 
 Tells us if the business grew , 
 if it grew faster than companies in the industry ,
 or if the business is slowing down.
-And from it how likely the performance will continue in future.
+And from it how likely the performance 
+will continue in future.
 <br>
 
-Recording revenues earlier will boost income for current year. 
+Recording revenues earlier will boost income 
+for current year. 
 FASB(Financial Accounting Standards Board) and
 IASB(International Accounting Standards Board) have 
-created a set of rigid rules to ensure proper revenue recognition.
+created a set of rigid rules 
+to ensure proper revenue recognition.
 <br>
 
 Revenue is recognized in the Income Statement 
@@ -709,13 +777,16 @@ Revenue should be recognized when:
 -The seller is reasonably certain of collecting money.
 <br>
 
-There is a specific set of rules managing expense recognition. 
+There is a specific set of rules 
+managing expense recognition. 
 Companies cannot decide on their own.
-Through the Matching principle companies cannot report on
-costs in a future quarter to inflate profit of current quarter. 
+Through the Matching principle companies 
+cannot report on costs in a future quarter 
+to inflate profit of current quarter. 
 <br>
 
-Matching principle states that expenses incurred to generate revenues
+Matching principle states that expenses incurred 
+to generate revenues
 are recognized in same period as revenue. 
 eg If sales made in 2016, then costs also recorded in 2016
 Not all company's expenses can be directly tied to revenues.
@@ -731,8 +802,10 @@ Liabilities are external financing.
 Equity is own financing. 
 <br>
 
-General Ledgers Account is an Account that helps company organize 
-the information about a firm's Balance Sheet or Income Statement Items. 
+General Ledgers Account is an Account 
+that helps company organize 
+the information about a firm's 
+Balance Sheet or Income Statement Items. 
 <br>
 
 Assets => PP&E(Property, plant, and equipment), 
@@ -749,14 +822,15 @@ Inventory => Raw Materials, Work-In-Progress,
              Finished Goods
 <br>
 
-T-Accounts are one of the most important tools accountants use
-when registering a transaction.
+T-Accounts are one of the most important tools 
+accountants use when registering a transaction.
 <br>
 
           T-Account
    (increases)|(decreases)
 
-T-Account Tittle can be eg Inventory, Accounts Payable, Revenue
+T-Account Tittle can be 
+eg Inventory, Accounts Payable, Revenue. 
 Left side will be information on increases
 Right side will be information on decreases
 T-Accounts are helpful because they all to 
@@ -808,8 +882,10 @@ in at-lease two accounts.
 
 eg a firm owns only one Asset and is 1mil$. 
    suppose the firm is financed entirely by Equity.
-   Meaning Asset Cash T-Account is Debited 1mill$ (Left, Right). 
-   L&E Equity T-Account is Credited 1mill$ (Right, Left).
+   Meaning Asset Cash T-Account 
+   is Debited 1mill$ (Left, Right). 
+   L&E Equity T-Account 
+   is Credited 1mill$ (Right, Left).
 <br>
 
    Suppose the company buys a property for 1mill$. 
@@ -829,7 +905,8 @@ the accounting equation at all time.
 Timing has an effect on Revenue. 
 Revenue in P&L vs Money in Bank.
 The amount of Revenue on income statement
-could be different from amount of cash the firm as received. 
+could be different from amount of cash 
+the firm has received. 
 A firm realized revenue when it is realized/earned,
 no matter when it receives the actual payment. 
 From the moment a firm delivers an actual product or
@@ -876,8 +953,9 @@ Accrual Account ensured that a firm records its economic operation
 in the period when they have been carried out. 
 There are 4 categories of Accruals.
 -Unearned Revenue: Revived payment for goods not delivered to client,
-which make it a liability. When delivered is erased from liability. 
--Accrued Revenue: When firm as provided goods but not received payment which reflects in Trade Receivables, 
+ which make it a liability. When delivered is erased from liability. 
+-Accrued Revenue: When firm as provided goods 
+ but not received payment which reflects in Trade Receivables, 
 -Prepaid Expenses: Expenses paid ahead of time, 
  eg office rent for 6 months where cash is now credited 
     in balance sheet and Prepaid Expended is debited in BS as Asset. 
@@ -949,19 +1027,24 @@ not collected. Costs are recognized when incurred not payed.
 <br>
 
 Under the Direct Method
-Cash received from customers + Cash paid to suppliers +
-Cash paid for operating expenses + Cash paid for interest expenses +
-Cash paid for taxes = Cash from Operating Activities
+Cash received from customers 
++ Cash paid to suppliers
++ Cash paid for operating expenses 
++ Cash paid for interest expenses
++ Cash paid for taxes 
+= Cash from Operating Activities
 Cash Expenditure + ... = Cash from Investing Activities 
-Payments on long term debt + ... = Cash from Financing Activities
+Payments on long term debt + ... 
+= Cash from Financing Activities
 <br>
 
 Almost all companies use the Indirect Method.
 <br>
 
-Under the Indirect Method, Net Income is converted in cash flow
-by making adjustments for transactions that have impact on 
-Net income, but do not have an immediate cash effect. 
+Under the Indirect Method, Net Income is converted 
+in cash flow by making adjustments for transactions 
+that have impact on Net income, 
+but do not have an immediate cash effect. 
 Elimination of non-cash expenses.
 Changes in Balance Sheet accounts deriving from the
 application of Accrual Accounting. 
@@ -1016,7 +1099,8 @@ eg money spent on Property, Plant and Equipment.
 Assets Trade Receivables are payments owed by Clients,
 for goods or services provided. 
 Trade Receivables are a significant investment for companies. 
-Clients who purchase continuously will always owe the company money. 
+Clients who purchase continuously 
+will always owe the company money. 
 More Sales means more Receivables, 
 Selling mostly on Credit means even higher Receivables. 
 It is important to think about 
@@ -1080,14 +1164,16 @@ Ending Inventory = Beginning Inventory + Purchases - COGS
 
 Inventory can have Product Costs involve Period Costs.
 Product Costs =
-(Purchase Costs - Trade Discounts - Rebates) +
-(Personnel Costs) + (Overhead Expenses like Rent and Electricity ) +
-(Other Costs like bringing products to a location)
+(Purchase Costs - Trade Discounts - Rebates)
++ (Personnel Costs) 
++ (Overhead Expenses like Rent and Electricity)
++ (Other Costs like bringing products to a location)
 Period Costs =
-(Expenses Related to Abnormal Waste of Material) +
-(Storage Costs) + (Admin Costs) + (Selling Expenses)
+(Expenses Related to Abnormal Waste of Material)
++ (Storage Costs) + (Admin Costs) + (Selling Expenses)
 Period Costs are expensed when incurred and
-not directly related to a batch of products currently being sold. 
+not directly related to 
+a batch of products currently being sold. 
 <br>
 
 Purchasing prices change over time like
@@ -1136,7 +1222,8 @@ There are different implications to Capitalizing vs Expensing.
 When we capitalize the costs we sustain for an Asset,
 we are moving these expenses to the Balance Sheet, 
 so Assets increase and Net Income for current year will be higher. 
-If an Asset is capitalized, its deduction as an expense is postponed,
+If an Asset is capitalized, 
+its deduction as an expense is postponed,
 and therefore higher taxes are paid on corporate income. 
 Lower D&A means Higher Taxes. 
 If a company prefers to capitalize costs it is 
@@ -1503,29 +1590,35 @@ eg a 15mil equality invested project yielding 3mill,
 Generally Highly Leveraged Business has High Upside,
 and is preferred by aggressive investors. 
 In most jurisdictions Interest Expenses are tax deductible. 
-And is another reason profitable businesses prefer debt financing. 
+And is another reason 
+profitable businesses prefer debt financing. 
 Investors must feel safe with an investment,
 and usually accept even higher risk than usual 
 for real estate projects with belief they are stable over time. 
 In tech businesses creditors are much less willing 
 to offer a low cost of debt and significant amount of money.
-Tech companies usually have 0 or very little debt on a balance sheet.
+Tech companies usually have 0 
+or very little debt on a balance sheet.
 Tech companies rarely use leverage 
 and are usually entirely financed with equity. 
 <br>
 
 The more Debt a company has on its balance sheet,
 the more riskier it is perceived by creditors. 
-Creditors look for few things that can guarantee repayment of loan,
-the borrower company's Operating Cash Flows, its profitability 
-and the borrower company's assets. 
+Creditors look for few things that 
+can guarantee repayment of loan,
+the borrower company's Operating Cash Flows, 
+its profitability and the borrower company's assets. 
 If a firm goes bankrupt the guarantee from its 
 Operating Cash Flows are useless. 
-Assets tend to be sold at a much lower price when a company defaults,
+Assets tend to be sold at a much lower price 
+when a company defaults,
 and some can not even be sold. 
-In these cases Equity owners are the first to sustain losses.
+In these cases Equity owners 
+are the first to sustain losses.
 The more Debt a company has and the lower its Equity is,
-the higher the chases of Debt holder loosing significant amounts,
+the higher the chases of Debt holder 
+loosing significant amounts,
 when a default occurs. 
 When Banks expect to sustain losses 
 they will raise the Cost of Debt.
@@ -1535,12 +1628,15 @@ Firms of a similar size,
 operating in the same industry,
 should have a cost of debt corresponding to their leverage. 
 Changes to Cost of Debt can be compared and measured using 
-different companies Financial Debt to Liabilities and Equity ratio.
-Cost of Debt curve for each industry can be made using this method. 
+different companies Financial Debt 
+to Liabilities and Equity ratio.
+Cost of Debt curve for each industry 
+can be made using this method. 
 <br>
 
 Cost of Debt = Interest Expenses / Financial Liabilities
-alternatively the yield of a firm's 5-10 year bond can be seen. 
+alternatively 
+the yield of a firm's 5-10 year bond can be seen. 
 
 <br>
 
@@ -1553,7 +1649,8 @@ shown within Retained Equity.
 Can receive Tax Exemptions for Accumulated Losses
 if it is greater than Rest of Equity Accounts and
 can say company is in Technical Default and 
-needs to be refinanced by shareholders or will become bankrupt. 
+needs to be refinanced by shareholders 
+or will become bankrupt. 
 <br>
 
 Treasury Stock is the firm's own stock repurchased from 
@@ -1574,32 +1671,43 @@ to the number of shares outstanding.
 Non-Controlling Interest is a minority shareholder's 
 Pro-Rate Ownership of a firm's equity. 
 eg Company A owns 80% of Company X.
-   When Company A has to prepare a consolidated financial statement,
+   When Company A has to prepare 
+   a consolidated financial statement,
    including Company X's Assets and Liabilities,
-   it will have to show in it's Balance Sheet that it owns only 
+   it will have to show in it's Balance Sheet 
+   that it owns only 
    80% of Company X. 
    In practice Company A will show 100% of Company X's Assets
    and Liabilities. And then will also report in its Equity,
    that External Owners have a 20% stake in Company X. 
 <br>
 
-Other Comprehensive Income contains Revenues, Costs and other Gains
+Other Comprehensive Income contains Revenues, 
+Costs and other Gains
 and Losses that are excluded from Net Income 
 according to US GAAP or IFRS. 
 Examples of items that will go here are 
--Reversal Gains: deriving from revaluation of Brands or other Assets.
-  Can not be shown as this years Profit in the Income Statement. 
-  But they still have to go to Equity for the BS to Balance,
-  which is why it is included in other comprehensive income. 
+-Reversal Gains: deriving from revaluation 
+  of Brands or other Assets.
+  Can not be shown as this years Profit 
+  in the Income Statement. 
+  But they still have to go to Equity 
+  for the BS to Balance,
+  which is why it is included 
+  in other comprehensive income. 
 <br>
 
-Bootstrapping is Founders of Startups relying on no external funding
-and mostly their own Savings. Later Startups receive funds 
+Bootstrapping is Founders of Startups 
+relying on no external funding
+and mostly their own Savings. 
+Later Startups receive funds 
 from Venture Capital Funds and Business Angels. 
 <br>
 
-Venture Capitals are Investment Vehicles that collect money from 
-Institutional Investors providing seed and second stage financing
+Venture Capitals are Investment Vehicles 
+that collect money from 
+Institutional Investors providing seed 
+and second stage financing
 to a number of new or small businesses. 
 A few companies will compensate 
 for the great number of companies that will fail. 
@@ -1610,17 +1718,23 @@ Alternatively companies are able to raise Equity
 if they are Profitable. 
 But it is not optimal to wait and 
 refinance business with own profits.
-Especially early stages when startups needs to grow fast 
+Especially early stages 
+when startups needs to grow fast 
 and outpace competitors. 
 At these stages it is hard to secure Debt financing
 as new Businesses have very literal collateral.
 With New Equity Investment being the best option. 
-Private Equity Funds are larger than Venture Capital Funds. 
-Private Equity investors are able to invest a greater amount of money,
-and interested in a larger ownership stake. 10-20% vs 30-100%. 
-Their Goal is to enter and exit an investment in a 5 year time frame. 
+Private Equity Funds are larger 
+than Venture Capital Funds. 
+Private Equity investors are able 
+to invest a greater amount of money,
+and interested in a larger ownership stake. 
+10-20% vs 30-100%. 
+Their Goal is to enter and exit an investment 
+in a 5 year time frame. 
 A company that is going public will have to 
-increase its administrative and finance staff significantly. 
+increase its administrative 
+and finance staff significantly. 
 And prepare an number of financial documents 
 not required for private firms. 
 <br>
@@ -1630,22 +1744,26 @@ One way is an SEO (Seasoned Equity Offering).
 They are similar to IPOs but much simpler 
 as most documentation has already been filed during IPO. 
 Valuations are also easier as is already valued by market. 
-Another type of Equity post IPO are Private Placements which are 
-offerings that are exempt from a large part of the registration 
-procedures necessary for an IPO. They are usually offered to 
+Another type of Equity post IPO are Private Placements 
+which are offerings that are exempt 
+from a large part of the registration 
+procedures necessary for an IPO. 
+They are usually offered to 
 Institutional Investors who are 
-more sophisticated than retail investors and need less documentation
+more sophisticated than retail investors 
+and need less documentation
 in order to make an informed decision and 
 is the quickest way to make capital. 
 <br>
 
-Between 2007 and 2017 the S&P 500 outperformed most Hedge Funds.
+Between 2007 and 2017 the S&P 500 
+outperformed most Hedge Funds.
 Berkshire Hathaway outperformed the S&P 500,
 but factoring Dividends the S&P 500 reigned supreme. 
 <br>
 
-Dividends and Share repurchase are main methods of transferring cash
-from company to shareholders. 
+Dividends and Share repurchase are main methods 
+of transferring cash from company to shareholders. 
 Types of Dividends are
 -Regular Dividends: periodic payments quarterly or annual.
   Usually adopted by mature companies with stable cash flows.
@@ -1679,7 +1797,8 @@ eg 50$ per share before Dividend
    Then an Ex-Divided Date which is first day the Stock's Shares,
     reflect the new price of Stock.
    In most days the Ex-Dividend date is 2 days before 
-    Holders of Record Date, which is date all shareholders on record,
+    Holders of Record Date, 
+    which is date all shareholders on record,
     receive the Divided. And any investor who buys shares after 
     the record date wont receive the Dividend. Because the owner
     of the stock before him would be the one presumed to have
@@ -1712,16 +1831,21 @@ Some Companies prefer to have their stock price
 float between 20-80$ as it is perceived as optimal. 
 It can also be seen as a high signal 
 for future high expected increase of earnings. 
-Stock splits are usually a precursor, to high earnings announcement.
-And if their earnings announcement is not as strong as expected,
+Stock splits are usually a precursor, 
+to high earnings announcement.
+And if their earnings announcement 
+is not as strong as expected,
 it reverts back to previous level. 
-A lower price for stock can also lead to higher brokerage fees,
-given that stock brokers charge more fees for lower price stock.
+A lower price for stock can 
+also lead to higher brokerage fees,
+given that stock brokers charge more fees 
+for lower price stock.
 <br>
 
 
 Financial Statements show the development of a company's
-business throughout the preceding period (quarter, semester or a year)
+business throughout the preceding period 
+(quarter, semester or a year)
 Larger Firms have to provide a greater level of detail
 due to complexity of their operations. 
 Financial Statement contains
@@ -1730,30 +1854,35 @@ Financial Statement contains
 - Cash Flow
 - Management Discussion
 - Footnotes (A breakdown of important items in B.S. and I.S.)
-   Footnotes can be useful as they allow us to understand what
-   stands behind aggregated figures. 
+   Footnotes can be useful as they allow us to understand 
+   what stands behind aggregated figures. 
 <br>
 
-Smaller companies provide Financial Statements only once a year
-while Listed firms have to provide a financial report every 3 months. 
+Smaller companies provide Financial Statements 
+only once a year
+while Listed firms have to provide a financial report 
+every 3 months. 
 In the United States the Annual report required by the 
 Securities and Exchange Commission is called Form 10-K.
 Form 10-K report is prepared once per year and shows 
 how the firm performed during the past 12 months.
 Also includes the history, organization structure, 
 executive compensation, equity, and subsidiaries. 
-Some companies include their 10-K report within their annual report. 
+Some companies include their 10-K report 
+within their annual report. 
 <br>
 
 eg P&G annual report:
 Document stats with Table of Contents. 
 Financial Highlights below Table of Contents,
-showing breakdown of Sales by Business Segment, Geographic Region,
-and Market Maturity. 
+showing breakdown of Sales by Business Segment, 
+Geographic Region, and Market Maturity. 
 Then Letter from Company CEO and Chairman,
 explaining the developments related to P&G business,
-company's strategic positioning, and other important topics related 
-to what company does and what it hopes to achieve in future. 
+company's strategic positioning, 
+and other important topics related 
+to what company does 
+and what it hopes to achieve in future. 
 The next few pages contain information about 
 P&G's Operating Segments and Brands.
 Such information is not compulsory 
@@ -1779,29 +1908,37 @@ Part II provides information about
  the dividends it paid, its high and low price,
  and comparison with rest of market. 
  The S&P 500 approximates the rest of the market. 
- Scrolling down will be the Management's view on the business,
- along with companies operational structure, business units,
- recent developments that might have influenced its business,
+ Scrolling down will be the Management's 
+ view on the business,
+ along with companies operational structure, 
+ business units, recent developments 
+ that might have influenced its business,
  and expectation about the future. 
-Report of independent accounting firm can be found on the 10-K report
-that verifies the quality of the companies financial statements.
+Report of independent accounting firm 
+can be found on the 10-K report
+that verifies the quality 
+of the companies financial statements.
 Income Statement is shown comparatively for 3 year period,
-allowing for comparison of current period with previous 2 periods. 
+allowing for comparison 
+of current period with previous 2 periods. 
 After P&L statement will be Company's Balance Sheet,
 showing Assets are equal to Liabilities and Equity. 
 Statement of Shareholders Equity shows 
 changes in a company's equity in a very detailed way. 
 Cash flow statement gives an idea of the 
 cash flow generated by the business. 
-Investors are more interested in Cash Flow than Income,
-as it gives an immediate idea, of the health of company's business. 
+Investors are more interested 
+in Cash Flow than Income,
+as it gives an immediate idea, 
+of the health of company's business. 
 Net Income can be influenced by a number of non cash items. 
 Next few pages will be notes to financial statements.
 Explanations, descriptions and breakdowns of large accounts from 
 main Financial Statements. The notes for Intangible Assets shows
 its broken down into Intangible Assets with Determinable Lives
 and with Indefinite Lives, and is further broken down.
-All Financial Reports of Companies have almost the same structure. 
+All Financial Reports of Companies 
+have almost the same structure. 
 <br>
 
 Financial Department is responsible for 
@@ -1816,11 +1953,12 @@ financial performance and position.
 The owners of a company, its shareholders,
 are not the ones managing the company,
 and is why they need auditor's assurance services.
-Auditing is when an External Party or Auditor is engaged to examine
-the Financial Statements including related disclosures by management. 
+Auditing is when an External Party or Auditor 
+is engaged to examine the Financial Statements 
+including related disclosures by management. 
 Required by law and all Financial Statements include a note 
-from Auditor which certifies or doesn't the credibility of figures
-within the report. 
+from Auditor which certifies 
+or doesn't the credibility of figures within the report. 
 The Big 4 Accounting Firms are KPMG, PWC, EY and Deloitte.
 <br>
 
@@ -1845,14 +1983,16 @@ Balance Sheet, Income Statement and Cash Flow.
 The Accounting Equation is Assets = Liabilities + Equity.
 General Ledger is used to record all of a company's transactions
 and its data is used to make Financial Statements.
-Double Entry states that every financial transaction has equal and opposite effects in at least two different accounts.
+Double Entry states that every financial transaction 
+has equal and opposite effects in at least two different accounts.
 Revenue and Costs (or Expense Recognition) 
 are recorded at different times 
 depending on when actual cash payments comes in. 
 <br>
 
 Financial Statement Analysis is a continuation of Accounting
-that uses financial figures in order to provide some less obvious insights into the company's business. 
+that uses financial figures in order to provide 
+some less obvious insights into the company's business. 
 After the creation of Balance Sheet and Income Statement,
 Financial Statement Analysis can be done.
 It's main purpose is the assessment of the performance and soundness
@@ -1871,7 +2011,8 @@ while others classify the same transactions as
 financial or non-operating, as the two companies 
 have different underlying businesses. 
 Financial Statement Analysis is based on comparison,
-comparing the same entity over time(growth of revenues, expenses, etc.).
+comparing the same entity over time
+(growth of revenues, expenses, etc.).
 Most investors are focused on company's growth potential. 
 Another popular type of comparison is peer comparison,
 comparing a company with the rest of the firms in its industry.
@@ -3358,11 +3499,16 @@ depending on the project, it can be using
    And is not theoretically correct 
    to use Company's Beta for this calculations. 
    To account for this there are few manipulations. 
-   That is adjust the Company's Beta for the risk profile of the industry in which the project will be carried out. 
+   That is adjust the Company's Beta 
+   for the risk profile of the industry in which 
+   the project will be carried out. 
    And the amount of leverage for the project. 
    eg
-    Company's Beta = 0.6, Debt/Equity = 1.86x or 65%, Tax Rate = 30%
-    First we must deliver company's Beta, that is calculate a Beta independent of firm's capital structure. 
+    Company's Beta = 0.6, 
+    Debt/Equity = 1.86x or 65%, 
+    Tax Rate = 30%
+    First we must deliver company's Beta, 
+    that is calculate a Beta independent of firm's capital structure. 
     Beta[n] 
      = (1 / (1 + (1-t)*(D/E))) * Beta[l]
      = (1 / (1 + (1-0.3)*(1.86))) * 0.6 
@@ -3370,7 +3516,8 @@ depending on the project, it can be using
     This is company x's unlevered Beta,
     independent of the firm's capital structure. 
     Beta[l] = Beta[n] * (1 + (1-t)*(D/E))
-            = 0.26 * (1 + (1-0.4) * 2.33) = 0.63 where 2.33 is 70%
+            = 0.26 * (1 + (1-0.4) * 2.33) 
+            = 0.63 where 2.33 is 70%
             = 0.63
     Giving the Project Specific Beta as 0.63 vs company Beta 0.6
 <br>
@@ -3459,7 +3606,8 @@ eg
  This involves assessing the demand for bicycles 
  and making an assumption about the price they will be sold. 
  Not just a year from now but thought the life of entire project. 
- By estimating potential demand and price at which bicycles can be sold, we obtain a projection of revenue figures. 
+ By estimating potential demand and price at which bicycles can be sold, 
+ we obtain a projection of revenue figures. 
  Projected Revenue 
   = Demand * Price
  Estimating expenses can have many unknowns.
@@ -4024,7 +4172,8 @@ Capital Budgeting Practical Exercise:
    are the ones going to Shareholder,
    you must discount them by Cost of Equity. 
    It is incorrect to discount by WACC,
-   because interest expenses have already been taken into consideration in the Net Cash Flow.  
+   because interest expenses have already been taken 
+   into consideration in the Net Cash Flow.  
    On the other-hand if Operating Cash Flows are being discounted,
    due to the fact that they 
    take into consideration interest expenses,
@@ -4227,7 +4376,8 @@ Tesla Company Analysis:
  In tab "Deliveries Comparable" we compare the numbers 
  to other industry leaders. We don't compare with Jaguar,
  Porch, Ferrari, ... as they are a niche market. 
- We look at companies like GM, Ford, Fiat Chrysler, BMW and Volkswagen.
+ We look at companies like 
+ GM, Ford, Fiat Chrysler, BMW and Volkswagen.
  They deliver 6.8 mill vehicles on average. 
  BMW is smallest at 2.5 mill a year. 
  It is always a good practice to compare forecast results,
@@ -4548,7 +4698,7 @@ Tesla Company Analysis:
   and will have to raise Equity or Debt Capital one or more 
   times in the upcoming years. This is why we make following assumptions
   and incorporate them into our model:
-   - Assumption 1: When UFCF<0, Tesla raises financing on
+   - Assumption 1: When UFCF < 0, Tesla raises financing on
       the first day of the following year. 
    - Assumption 2: Tesla will use 50% debt and 50% equity financing
       to cover negative cash flows.
